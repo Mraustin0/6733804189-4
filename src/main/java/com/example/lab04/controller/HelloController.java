@@ -1,4 +1,4 @@
-package com.example.lab03.controller;
+package com.example.lab04.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,9 +28,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     // ── ข้อมูลนักศึกษา ── แก้ไขตรงนี้ ──────────────────────────────────────
-    private static final String NAME    = "Your Name Here";     // TODO: ใส่ชื่อจริง
-    private static final String ID      = "xxxx";               // TODO: ใส่รหัสนักศึกษา
-    private static final String SECTION = "x";                  // TODO: ใส่เลข Section
+    private static final String NAME    = "Phakawat sukmanee";     // TODO: ใส่ชื่อจริง
+    private static final String ID      = "673380418-9";               // TODO: ใส่รหัสนักศึกษา
+    private static final String SECTION = "4";                  // TODO: ใส่เลข Section
     // ─────────────────────────────────────────────────────────────────────────
 
     /**
